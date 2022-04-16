@@ -1,0 +1,21 @@
+{
+    "componentTypeId": "com.library.computer",
+    "extendsFrom": [
+        "com.library.timestream-telemetry"
+    ],
+    "propertyDefinitions": {
+        "telemetryAssetType": {
+            "defaultValue" : { "stringValue": "Computer Desk" }
+        },
+        "Runtime": {
+            "dataType": { "type": "DOUBLE" },
+            "isTimeSeries": true,
+            "isStoredExternally": true
+        },
+        "PowerUsage": {
+            "dataType": { "type": "DOUBLE" },
+            "isTimeSeries": true,
+            "isStoredExternally": true
+        }
+    }
+}

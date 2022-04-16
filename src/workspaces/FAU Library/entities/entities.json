@@ -1,0 +1,395 @@
+{
+  "entities": [
+    {
+      "parentEntityId": "$ROOT",
+      "entityId": "Equipment_F",
+      "entityName": "Equipment",
+      "entityPath": "/Equipment",
+      "components": {}
+    },
+    {
+      "parentEntityId": "Equipment_F",
+      "entityId": "Computers_F",
+      "entityName": "Computers",
+      "entityPath": "/Equipment/Computers",
+      "components": {}
+    },
+    {
+      "parentEntityId": "Computers_F",
+      "entityId": "Computer_00",
+      "entityName": "Computer Desk 1",
+      "entityPath": "/Equipment/Computers/Computer Desk 1",
+      "components": {
+        "ComputerComponent": {
+          "componentTypeId": "com.library.computer",
+          "properties": {
+            "telemetryAssetId": {
+              "value": {
+                "stringValue": " Made up ???? XXXXXX"
+              }
+            }
+          }
+        },
+        "AlarmComponent": {
+          "componentTypeId": "com.library.alarm",
+          "properties": {
+            "alarm_key": {
+              "value": {
+                "stringValue": "computerAlarm_00"
+              }
+            },
+            "telemetryAssetId": {
+              "value": {
+                "stringValue": "computerAlarm_00"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "parentEntityId": "Computers_F",
+      "entityId": "Computer_01",
+      "entityName": "Computer Desk 2",
+      "entityPath": "/Equipment/Computers/Computer Desk 2",
+      "components": {
+        "ComputerComponent": {
+          "componentTypeId": "com.library.computer",
+          "properties": {
+            "telemetryAssetId": {
+              "value": {
+                "stringValue": " Made up ???? XXXXXX"
+              }
+            }
+          }
+        },
+        "AlarmComponent": {
+          "componentTypeId": "com.library.alarm",
+          "properties": {
+            "alarm_key": {
+              "value": {
+                "stringValue": "computerAlarm_01"
+              }
+            },
+            "telemetryAssetId": {
+              "value": {
+                "stringValue": "computerAlarm_01"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "parentEntityId": "Computers_F",
+      "entityId": "Computer_02",
+      "entityName": "Computer Desk 3",
+      "entityPath": "/Equipment/Computers/Computer Desk 3",
+      "components": {
+        "ComputerComponent": {
+          "componentTypeId": "com.library.computer",
+          "properties": {
+            "telemetryAssetId": {
+              "value": {
+                "stringValue": " Made up ???? XXXXXX"
+              }
+            }
+          }
+        },
+        "AlarmComponent": {
+          "componentTypeId": "com.library.alarm",
+          "properties": {
+            "alarm_key": {
+              "value": {
+                "stringValue": "computerAlarm_02"
+              }
+            },
+            "telemetryAssetId": {
+              "value": {
+                "stringValue": "computerAlarm_02"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "parentEntityId": "Computers_F",
+      "entityId": "Computer_03",
+      "entityName": "Computer Desk 4",
+      "entityPath": "/Equipment/Computers/Computer Desk 4",
+      "components": {
+        "ComputerComponent": {
+          "componentTypeId": "com.library.computer",
+          "properties": {
+            "telemetryAssetId": {
+              "value": {
+                "stringValue": " Made up ???? XXXXXX"
+              }
+            }
+          }
+        },
+        "AlarmComponent": {
+          "componentTypeId": "com.library.alarm",
+          "properties": {
+            "alarm_key": {
+              "value": {
+                "stringValue": "computerAlarm_03"
+              }
+            },
+            "telemetryAssetId": {
+              "value": {
+                "stringValue": "computerAlarm_03"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "parentEntityId": "Computers_F",
+      "entityId": "Computer_04",
+      "entityName": "Computer Desk 5",
+      "entityPath": "/Equipment/Computers/Computer Desk 5",
+      "components": {
+        "ComputerComponent": {
+          "componentTypeId": "com.library.computer",
+          "properties": {
+            "telemetryAssetId": {
+              "value": {
+                "stringValue": " Made up ???? XXXXXX"
+              }
+            }
+          }
+        },
+        "AlarmComponent": {
+          "componentTypeId": "com.library.alarm",
+          "properties": {
+            "alarm_key": {
+              "value": {
+                "stringValue": "computerAlarm_04"
+              }
+            },
+            "telemetryAssetId": {
+              "value": {
+                "stringValue": "computerAlarm_04"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "parentEntityId": "Computers_F",
+      "entityId": "Computer_05",
+      "entityName": "Computer Desk 6",
+      "entityPath": "/Equipment/Computers/Computer Desk 6",
+      "components": {
+        "ComputerComponent": {
+          "componentTypeId": "com.library.computer",
+          "properties": {
+            "telemetryAssetId": {
+              "value": {
+                "stringValue": " Made up ???? XXXXXX"
+              }
+            }
+          }
+        },
+        "AlarmComponent": {
+          "componentTypeId": "com.library.alarm",
+          "properties": {
+            "alarm_key": {
+              "value": {
+                "stringValue": "computerAlarm_05"
+              }
+            },
+            "telemetryAssetId": {
+              "value": {
+                "stringValue": "computerAlarm_05"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "parentEntityId": "Computers_F",
+      "entityId": "Computer_06",
+      "entityName": "Computer Desk 7",
+      "entityPath": "/Equipment/Computers/Computer Desk 7",
+      "components": {
+        "ComputerComponent": {
+          "componentTypeId": "com.library.computer",
+          "properties": {
+            "telemetryAssetId": {
+              "value": {
+                "stringValue": " Made up ???? XXXXXX"
+              }
+            }
+          }
+        },
+        "AlarmComponent": {
+          "componentTypeId": "com.library.alarm",
+          "properties": {
+            "alarm_key": {
+              "value": {
+                "stringValue": "computerAlarm_06"
+              }
+            },
+            "telemetryAssetId": {
+              "value": {
+                "stringValue": "computerAlarm_06"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "parentEntityId": "Computers_F",
+      "entityId": "Computer_07",
+      "entityName": "Computer Desk 8",
+      "entityPath": "/Equipment/Computers/Computer Desk 8",
+      "components": {
+        "ComputerComponent": {
+          "componentTypeId": "com.library.computer",
+          "properties": {
+            "telemetryAssetId": {
+              "value": {
+                "stringValue": " Made up ???? XXXXXX"
+              }
+            }
+          }
+        },
+        "AlarmComponent": {
+          "componentTypeId": "com.library.alarm",
+          "properties": {
+            "alarm_key": {
+              "value": {
+                "stringValue": "computerAlarm_07"
+              }
+            },
+            "telemetryAssetId": {
+              "value": {
+                "stringValue": "computerAlarm_07"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "parentEntityId": "Computers_F",
+      "entityId": "Computer_08",
+      "entityName": "Computer Desk 9",
+      "entityPath": "/Equipment/Computers/Computer Desk 9",
+      "components": {
+        "ComputerComponent": {
+          "componentTypeId": "com.library.computer",
+          "properties": {
+            "telemetryAssetId": {
+              "value": {
+                "stringValue": " Made up ???? XXXXXX"
+              }
+            }
+          }
+        },
+        "AlarmComponent": {
+          "componentTypeId": "com.library.alarm",
+          "properties": {
+            "alarm_key": {
+              "value": {
+                "stringValue": "computerAlarm_08"
+              }
+            },
+            "telemetryAssetId": {
+              "value": {
+                "stringValue": "computerAlarm_08"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "parentEntityId": "Computers_F",
+      "entityId": "Computer_09",
+      "entityName": "Computer Desk 10",
+      "entityPath": "/Equipment/Computers/Computer Desk 10",
+      "components": {
+        "ComputerComponent": {
+          "componentTypeId": "com.library.computer",
+          "properties": {
+            "telemetryAssetId": {
+              "value": {
+                "stringValue": " Made up ???? XXXXXX"
+              }
+            }
+          }
+        },
+        "AlarmComponent": {
+          "componentTypeId": "com.library.alarm",
+          "properties": {
+            "alarm_key": {
+              "value": {
+                "stringValue": "computerAlarm_09"
+              }
+            },
+            "telemetryAssetId": {
+              "value": {
+                "stringValue": "computerAlarm_09"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "parentEntityId": "$ROOT",
+      "entityId": "Spaces_F",
+      "entityName": "Spaces",
+      "entityPath": "/Spaces",
+      "components": {}
+    },
+    {
+      "parentEntityId": "Spaces_F",
+      "entityId": "ComputerLab_00",
+      "entityName": "Computer Lab",
+      "entityPath": "/Spaces/Computer Lab",
+      "components": {
+        "Space": {
+          "componentTypeId": "com.library.space",
+          "properties": {
+            "bounds": {
+              "value": {
+                "listValue": [
+                  { "doubleValue": 25 },
+                  { "doubleValue": 9.5 },
+                  { "doubleValue": 25 }
+                ]
+              }
+            },
+            "position": {
+              "value": {
+                "listValue": [
+                  { "doubleValue": 0.0 },
+                  { "doubleValue": 0.0 },
+                  { "doubleValue": 0.0 }
+                ]
+              }
+            },
+            "rotation": {
+              "value": {
+                "listValue": [
+                  { "doubleValue": 0.0 },
+                  { "doubleValue": 0.0 },
+                  { "doubleValue": 0.0 }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

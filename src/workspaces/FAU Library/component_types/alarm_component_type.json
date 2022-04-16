@@ -1,0 +1,23 @@
+{
+    "componentTypeId": "com.library.alarm",
+    "extendsFrom": [
+        "com.library.timestream-telemetry",
+        "com.amazon.iottwinmaker.alarm.basic"
+    ],
+    "propertyDefinitions": {
+        "telemetryAssetType": {
+            "defaultValue": {
+                "stringValue": "Alarm"
+            }
+        }
+    },
+    "functions": {
+        "dataReader": {
+            "implementedBy": {
+                "lambda": {
+                    "arn": "{lambdaArn}"
+                }
+            }
+        }
+    }
+}
